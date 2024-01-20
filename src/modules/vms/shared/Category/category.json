@@ -1,0 +1,33 @@
+[
+    {
+        "BuldingMaterial": [
+            {
+                "name": "deepak"
+            },
+            {
+                "name": "raksha"
+            },
+            {
+                "name": "massa"
+            },
+            {
+                "name": "lassa"
+            }
+        ],
+
+        "PLumbing": [
+            {
+                "name": "deepak"
+            },
+            {
+                "name": "raksha"
+            },
+            {
+                "name": "massa"
+            },
+            {
+                "name": "lassa"
+            }
+        ]
+    }
+]

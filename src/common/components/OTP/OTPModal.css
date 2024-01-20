@@ -1,0 +1,74 @@
+.contact-OtpText {
+
+}
+
+.verify-emailHead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1F1F1F;
+    padding-left: 40px;
+
+}
+
+.verify-emailPara {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1F1F1F;
+    padding-left: 40px;
+}
+
+.verify-button {
+    color: #FFFFFF !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-OtpInput {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.email-verifyButtons {
+    padding-left: 8px;
+    display: flex;
+}
+
+.email-inputOtp {
+    width: 7rem;
+    height: 55px;
+    border: 1px solid rgba(31, 31, 31, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 27px;
+    padding: 0px 0px 0px 55px;
+}
+
+.Emailverify-resendbutton {
+    width: 290px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #1F1F1F;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.Emailverify-verifybutton {
+    width: 290px;
+    height: 50px;
+    background: #101010;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 20px;
+}

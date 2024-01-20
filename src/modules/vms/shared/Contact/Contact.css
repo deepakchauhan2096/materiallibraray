@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;400&display=swap');
+
+.contact-container {
+  width: 100%;
+  min-height: 100%;
+  background: #FFFFFF;
+  /* box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 10px; */
+  
+}
+
+
+.contact-pad {
+  padding: 1.9rem 1.8rem 0.6rem 1.8rem;
+}
+
+.contact-headline {
+  border-bottom: 0.063rem solid #696969;
+}
+
+.contact-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #1F1F1F !important;
+}
+
+.contact-des {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.15rem;
+  line-height: 1.3rem;
+  color: #1F1F1F !important;
+}
+
+.contact-submit-top-button {
+  background: #FFFFFF;
+  border: 0.12rem solid #F24F17;
+  box-sizing: border-box;
+  border-radius: 0.31rem;
+  font-size: 1.5rem;
+  Width: 9.37rem;
+  Height: 3.12rem;
+  color: #F24F17 !important;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+.contact-submit-top-button:hover {
+  background: #F24F17;
+  border: 0.12rem solid #F24F17;
+  box-sizing: border-box;
+  border-radius: 0.31rem;
+  font-size: 1.5rem;
+  width: 9.37rem;
+  height: 3.12rem;
+  color: white !important;
+  transition-timing-function: ease-out;
+  transition: 0.2s;
+  
+}
+
+.Contact-div {
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+}
+
+.divContact-branch {
+  margin: 30px 0px 28px 30px;
+}
+
+.Contact-details {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 24px;
+  color: #1f1f1f;
+  text-align-last: left;
+  margin-bottom: 2px !important;
+}
+
+.contact-nameDiv {
+  display: flex;
+  width: 832px;
+  /* padding-left: 30px; */
+}
+.sub-Contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1f1f1f;
+}
+
+.ContactSubmit-button {
+  width: 150px;
+  height: 50px;
+  background: #ffffff;
+  border: 2px solid #f24f17;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f24f17;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+  
+.contactInput-div {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.fields-email {
+  display: flex;
+  justify-content: space-between;
+  width: 820px;
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+.contact-input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  height: 20px;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+
+.add-alternate {
+  height: 24px;
+  width: 183px;
+  left: 30px;
+  top: 149px;
+  font-family: 'Inter';
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #F24F17;
+  cursor: pointer;
+  border: none;
+}
+
+.contactInput-name {
+  /* width: 406px; */
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1F1F1F;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.contactEmail-div {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.contactInput-email {
+  width: 820px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+  
+.contactEmail-secdiv {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+.input-secemail {
+  width: 659px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.contactNumberSec-input {
+  display: flex;
+}
+
+.contactInput-region {
+  width: 72px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.contactInput-fone {
+  width: 749px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.contactInput-phone {
+  width: 588px;
+  height: 50px;
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: 10px;
+}
+
+.verify-button {
+  width: 91px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contact-delIcon {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+  
+.input-adress {
+  width: 820px;
+  height: 50px;
+  background: #ffffff;
+  margin-top: 15px;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.contact-selectDiv {
+  margin-top: 10px;
+}
+.selectInput-name {
+  width: 405px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+  
+.vl {
+      border-left: 2px solid #1F1F1F;
+      
+      height: 200px;
+    }
+  .mt-30{
+    margin-top: 30px;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    
+  }

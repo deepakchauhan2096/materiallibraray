@@ -1,0 +1,97 @@
+.container-main-post {
+  padding: 0px 30px 20px 30px;
+}
+
+.active-post {
+  width: 147.5px;
+  height: 39px;
+  border: none;
+  background: #f46430;
+  border-radius: 20px;
+}
+
+.pms_headline {
+  border-bottom: 4px solid var(--mlorange) !important;
+  width: 10%;
+}
+
+.pad_post {
+  padding: 31px 0px 20px 0px;
+}
+
+.view-emp-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 324px;
+  height: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #1f1f1f;
+}
+
+.pms_sub_heading {
+  padding: 30px 0 31px 0;
+}
+
+.nosubmit_pms {
+  width: 250px !important;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("/icons/search.svg") no-repeat 13px center;
+  background-color: #f2f2f2;
+  margin-right: 50px;
+  height: 40px !important;
+  border: none !important;
+  border: none;
+}
+
+.none {
+  display: none;
+}
+
+/* css for create post */
+
+.job-container{
+  display:flex ;
+  flex-wrap: wrap;
+}
+
+
+.create-new-job{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+  width: 400px;
+  height: 184px;
+
+  background: #f0f0f0;
+  border: 1px dashed #696969;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.p-create{
+  
+margin-top: 13px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #696969;
+}

@@ -1,0 +1,393 @@
+/* DELETE Project */
+
+.container_delete {
+  width: 35.41vw;
+  min-height: 214px !important;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+.action-button-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  border: 2px solid #1F1F1F !important;
+}
+
+.delete_warning_tag {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #1F1F1F;
+  margin-top: 40px;
+}
+
+
+
+
+.main-pad {
+  padding: 0 40px 0 40px;
+}
+
+
+.pad-top-remove-action {
+  padding-top: 10px;
+}
+
+
+.ProjectName {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #F24F17;
+}
+
+.container_add_content_top {
+  padding: 30px 55px 0 55px;
+}
+
+.container_add_content_middle {
+  padding: 5px 55px 0px 55px;
+}
+
+.container_add_content_bottom {
+  padding: 0 55px 30px 55px;
+}
+
+.top-bottom-line {
+  border-bottom: 1px solid rgba(105, 105, 105, 0.5);
+  width: 100%;
+}
+
+
+.container_addportfolio_content_middle {
+  padding: 0 55px 0px 55px;
+}
+
+
+
+/* ADD Project */
+
+.container_add {
+  width: 1120px !important;
+  min-height: 885px !important;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+
+}
+
+.container_add_image {
+  width: 1120px !important;
+  min-height: 610px !important;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+}
+
+.add-project-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1F1F1F;
+}
+
+
+.addproject-upload-area {
+  height: 525px;
+  max-width: 490px !important;
+}
+
+.addproject-upload-image-area {
+  height: 329px;
+}
+
+
+.addproject-form-area {
+  height: 580px;
+  max-width: 490px !important;
+}
+
+.padding-left-right-zero-button {
+  padding-top: 30px;
+}
+
+.addproject-label-name-margin-top {
+  margin-top: 12px;
+}
+
+.addproject-field-height-button {
+  width: 250px !important;
+  max-height: 50px;
+  background: #1F1F1F !important;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.addproject-field-height {
+  max-height: 50px !important;
+  border: 1px solid rgba(31, 31, 31, 0.5) !important;
+}
+
+.addproject-label-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1F1F1F;
+}
+
+.addproject_heading {
+  height: 69px;
+}
+
+.circle-around-number {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  background: #fff;
+  border: 2px solid #696969;
+  color: #696969;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.circle-active {
+  border-color: #28AD95;
+  color: #28AD95;
+}
+
+
+.circle-around-number_one_padding {
+  padding: 6px 11px 5px 11px;
+  line-height: 25px;
+}
+
+.circle-around-number_two_padding {
+  padding: 5px 10px 6px 10px;
+}
+
+.circle-around-number_three_padding {
+  padding: 5px 10px 6px 9px;
+}
+
+
+
+
+
+.addproject_navigation {
+  display: flex;
+  height: 80px;
+}
+
+.number-box {
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+
+
+.circle-name {
+  margin-left: 10px;
+}
+
+.padding-left-right-zero {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+/* UPLOAD */
+.project-upload-file {
+  margin-top: 10px;
+  position: relative;
+  width: 400px;
+  height: 328px;
+  border: 1px dashed #696969;
+  border-radius: 5px;
+  background: #F5F5F5;
+  display: '';
+  z-index: 2;
+}
+
+
+
+.project-upload-file input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.project-image-upload-file{
+  margin-top: 10px;
+  position: relative;
+  width: 1040px;
+  height: 250px;
+  border: 1px dashed #696969;
+  border-radius: 5px;
+  background: #F5F5F5;
+  display: '';
+  z-index: 2;
+}
+
+.project-image-upload-file input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+
+
+.brief-discription-field-height {
+  min-width: 600px;
+  min-height: 100px;
+  border: 1px solid rgba(31, 31, 31, 0.5) !important;
+}
+
+.brief-discription-portfolio-field-height {
+  min-width: 600px;
+  min-height: 336px;
+  border: 1px solid rgba(31, 31, 31, 0.5) !important;
+
+}
+
+.thumbnail {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1F1F1F;
+}
+
+
+.imageuploader_preview {
+  position: absolute;
+  width: 395px;
+  height: 330px;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 2px;
+  border: 2px dashed transparent;
+}
+
+
+.idealSize {
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1F1F1F;
+}
+
+.upload-icon-container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  display: '';
+  z-index: -1;
+}
+
+.upload_discription {
+  padding-top: 6px;
+}
+
+.reactEasyCrop_CropArea {
+  width: 398px !important;
+  height: 330px !important;
+  border-radius: 2px;
+  position: absolute;
+  left: 0 !important;
+  top: 0 !important;
+  transform: none !important;
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+  box-sizing: border-box;
+  /* box-shadow: 0 0 0 9999em; */
+  color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+
+.addproject_square {
+  width: 87px !important;
+  background-color: #ffffff !important;
+  height: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1F1F1F !important;
+  border: none;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: zero;
+  padding-left: 20px;
+}
+
+.addproject_square::placeholder {
+  color: #1F1F1F !important;
+}
+
+.NextButton {
+  text-decoration: none;
+  border: none;
+  background: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.optional_label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1F1F1F;
+}

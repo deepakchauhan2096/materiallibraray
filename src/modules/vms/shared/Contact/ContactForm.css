@@ -1,0 +1,25 @@
+.contact-font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1F1F1F !important;
+}
+
+::placeholder {
+    color: #1F1F1F;
+}
+.w-8 {
+    width: 8% !important;
+}
+.w-820 {
+    width: 970px !important;
+}
+.w-650 {
+    width: 650px !important
+}
+
+.w-92 {
+    width: 92% !important;
+}

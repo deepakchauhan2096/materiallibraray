@@ -1,0 +1,56 @@
+.cr-emp-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Emp-heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+
+
+  color: #1f1f1f;
+}
+.card-postjob{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p-create-new{
+  color: #1f1f1f;
+}
+.divider{
+    margin-top: 30px;
+    width: 100% !important;
+    border:1px solid rgba(105, 105, 105, 0.5);
+    padding: 0px !important;
+}
+.cr-job-title{
+    margin-top: 20px;
+     
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #1F1F1F; 
+}
+
+.upload-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:2px dashed black;
+}
+.upload-logo{
+    margin-top: 20px;
+}
+
+.button-container{
+  float: right;
+  margin: 20px 40px 20px 0px;
+
+}

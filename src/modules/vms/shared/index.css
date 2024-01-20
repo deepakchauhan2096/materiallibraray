@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;400&display=swap');
+.header-button{
+  border: none;
+  background: #F5F5F5;
+  border-radius: 40px;
+}
+.header-icon {
+  height: 21.5px;
+}
+.active-button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #f24f17;
+}
+.disable-button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #1f1f1f;
+}
+.li-item {
+  margin-bottom: 14px;
+  color: #1f1f1f !important;
+}
+
+@media (min-width: 900px) {
+  .css-1t6c9ts {
+    display: flex;
+    justify-content: flex-end !important;
+    margin-right: 2%;
+  }
+}
+@media (min-width: 600px) {
+  .css-1t29gy6-MuiToolbar-root {
+    padding-left: 70px !important;
+    padding-right: 80px !important;
+  }
+}

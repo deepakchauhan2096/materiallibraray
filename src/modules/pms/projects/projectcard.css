@@ -1,0 +1,217 @@
+.card_container_main {
+  width: 100%;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Center website */
+
+.card_title {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row_pms {
+  /* margin-top: 23px; */
+  width: 100%;
+}
+
+/* Add padding BETWEEN each column */
+.row_pms,
+.row_pms>.column_pms {
+  padding-bottom: 30px;
+}
+
+.row_pms,
+.row_pms>.column_pms {
+  padding-bottom: 30px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column_pms {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after rows */
+.row_pms:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content_pms {
+  background-color: white;
+  /* padding: 15px; */
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 31, 31, 0.2);
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 400px;
+  height: 470px;
+  margin-right: 83px;
+}
+
+.content_pms_add {
+  background-color: white;
+  padding: 15px;
+  background: #F5F5F5;
+  border: 1px dashed #696969;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 400px;
+  height: 470px;
+  display: flex;
+  align-items: center;
+  margin-right: 83px;
+  position: relative;
+}
+
+.card_content {
+  padding: 20px 0 20px 15px;
+}
+
+.card_date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #696969;
+}
+
+.card_author {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #696969;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.card_title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1F1F1F;
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+
+.card_image {
+  height: 13.94px;
+  width: 12.15px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+
+
+.remark {
+  display: flex;
+  flex-direction: row;
+  margin-top: 14px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1F1F1F;
+}
+
+.remark_item {
+  padding-right: 10px;
+}
+
+.card_cross_image {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 9px;
+  right: 9px;
+  content: '';
+}
+
+.card_cross {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  z-index: 2;
+  right: 15px;
+  top: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+
+.checkbox_input {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  z-index: 2;
+  left: 15px;
+  top: 20px;
+  background-color: #ffffff;
+}
+
+.project_add {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 200px;
+  left: 174px;
+}
+
+.add_new_project {
+  position: absolute;
+  left: 130px;
+  top: 260px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #696969;
+}
+
+.button_card {
+  position: absolute;
+  text-decoration: none;
+  background-color: none;
+  background: none;
+  border: none;
+  font-family: inter;
+  width: 400px;
+  height: 470px;
+  left: 0;
+  top:0;
+}
+
+.button_card_delete {
+  position: absolute;
+  text-decoration: none;
+  background-color: none;
+  background: none;
+  border: none;
+  font-family: inter;
+  right: 0;
+  top:0;
+}
+
+
+@media only screen and (max-width: 1500px) {
+
+  .column_pms {
+    float: left;
+    width: 50%;
+  }
+
+}

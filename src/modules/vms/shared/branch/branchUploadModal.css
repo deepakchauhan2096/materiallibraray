@@ -1,0 +1,75 @@
+.upload-btn-pad{
+  padding-top: 116px;  
+}
+
+.upload-btn-height{
+    height: 50px !important;
+}
+
+.download-csv {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+  color: #f24f17;
+}
+
+.upload-modal-button {
+  background: #1f1f1f;
+  border-radius: 2px;   
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff !important;
+}
+
+.upload-btn-pad-row{
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .download-csv {
+    font-size: 15px;
+  }
+
+  .upload-btn-pad{
+    padding-top: 72px;  
+  }
+
+  .upload-btn-height{
+    height: 33px !important;
+}
+.upload-btn-pad-row{
+  padding-top: 51px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+    .upload-btn-pad{
+        padding-top: 40px;  
+      }
+    
+  .upload-btn-height{
+    height: 30px !important;
+}
+
+.upload-btn-pad-row{
+  padding-top: 40px;
+}
+
+.btn-pad{
+  
+  padding: 5px 0px !important;
+}
+
+
+}

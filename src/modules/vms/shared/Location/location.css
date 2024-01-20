@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+.submit-button {
+  width: 150px;
+  height: 50px;
+  margin: 30px 30px 0 0;
+  background: #ffffff;
+  border: 2px solid #f24f17;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #f24f17;
+
+}
+
+.div-branch {
+  margin-top: 9px;
+}
+
+.branch-deatils {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  padding: 30px 0 0px 30px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1f1f1f;
+  text-align-last: left;
+  margin-bottom: 2px !important;
+}
+
+.sub-branch {
+  padding: 0px 0px 0px 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1f1f1f;
+}
+
+.name-input {
+  margin-bottom: 2px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 30px;
+  color: #1f1f1f;
+}
+
+.input-div {
+  margin-top: 23px;
+  width: px;
+}
+
+.input-name {
+  width: 406px;
+  height: 50px;
+  padding: 14px 0 13px 21px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.option-name {
+  color: #999;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.option-name-email {
+  color: #999;
+  font-size: 20px;
+}
+
+.input-email {
+  padding: 13px 0 14px 21px;
+  width: 821px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+
+
+.input-region {
+  width: 75px;
+  height: 50px;
+  margin-left: 30px;
+  padding: 13px 20px 14px 20px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: 10px;
+  color: #1f1f1f;
+}
+
+
+.input-region::placeholder {
+  color: #1f1f1f;
+  font-size: 20px;
+  line-height: 23px;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #1f1f1f;
+  line-height: 23px;
+  color: #1f1f1f;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #1f1f1f;
+  color: #1f1f1f;
+  line-height: 23px;
+}
+
+
+.input-phone::placeholder {
+  color: #1f1f1f;
+  font-size: 20px;
+  line-height: 23px;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #1f1f1f;
+  line-height: 23px;
+  color: #1f1f1f;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #1f1f1f;
+  color: #1f1f1f;
+  line-height: 23px;
+}
+
+
+.input-email::placeholder {
+  font-size: 20px;
+  line-height: 23px;
+  opacity: 1;
+  /* Firefox */
+}
+
+
+
+
+.input-phone {
+  width: 745px;
+  height: 50px;
+  padding: 13px 0px 14px 21px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 31, 31, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.bottom-line-heading {
+  border-bottom: 1px solid #e3e0e0;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  height: 110px;
+}
+
+.v2 {
+  border-left: 1px solid #1F1F1F;
+  padding: 0;
+  height: 729px;
+}
+
+
+
+.form-left {
+  width: 914px;
+  height :746px;
+}
+
+
+
+.download-csv-name{
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+color: #f24f17;
+}
+
+
+.text-align-left{
+ text-align: left;
+}
+
+.padding-top-10{
+  padding-top: 10px;
+}
+
+
+
+
+.css-1633um2-MuiPaper-root {
+  padding: 0 !important;
+}
+
+.css-1em9ut6-MuiGrid-root {
+  padding: 40px !important;
+  height: 856px !important;
+}
+
+.css-1633um2-MuiPaper-root {
+  height: 840px;
+}
+
+.css-zxdg2z {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 24px;
+  background-color: #F2F2F2;
+  height: 1005px;
+}
+

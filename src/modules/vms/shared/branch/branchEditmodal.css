@@ -1,0 +1,117 @@
+.b-h-font {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+  color: #1f1f1f;
+}
+
+.branch-edit-pad {
+  padding: 30px 0px 0px 20px !important;
+}
+
+.branch-p-font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+
+  color: #1f1f1f;
+}
+
+.color-orange {
+  color: #f24f17;
+}
+
+.b-cancel-button {
+  background: #ffffff;
+  border: 2px solid #1f1f1f;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+ 
+  text-align: center;
+  height: 50px;
+
+  color: #1f1f1f;
+}
+
+.b-save-button {
+  background: #1f1f1f;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+ 
+  text-align: center;
+  height: 50px;
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1366px) {
+  .b-h-font {
+    font-size: 14px;
+  }
+
+  .b-em-h-pad {
+    padding: 20px 0px 0px 28px;
+  }
+
+  .b-em-p-pad {
+    padding: 6px 0px 0px 28px;
+  }
+
+  .branch-p-font {
+    font-size: 12px !important;
+  }
+
+  .b-cancel-button {
+    font-size: 14px;
+    height: 33px;
+  }
+
+  .b-save-button {
+    font-size: 14px;  
+    height: 33px;
+  
+
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  .b-h-font {
+    font-size: 12px;
+  }
+
+  .b-em-h-pad {
+    padding: 20px 0px 0px 20px;
+  }
+
+  .b-em-p-pad {
+    padding: 6px 0px 0px 20px;
+  }
+
+  .branch-p-font {
+    font-size: 12px !important;
+  }
+
+  .b-cancel-button {
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .b-save-button {
+    font-size: 12px;  
+    height: 33px;
+  
+
+  }
+}

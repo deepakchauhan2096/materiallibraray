@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+.Kyc-div {
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+  }
+  
+  .divKyc-details {
+    margin: 30px 0px 28px 30px;
+  }
+  
+  .Kyc-details {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: #1f1f1f;
+    text-align-last: left;
+    margin-bottom: 2px !important;
+  }
+  
+.sub-kyc {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1f1f1f;
+}
+.kyc-OrgDiv {
+    display: flex;
+    /* width: 832px; */
+    /* padding-left: 30px; */
+}
+  
+  
+.KycSubmit-button {
+    width: 150px;
+    height: 50px;
+    background: #ffffff;
+    border: 2px solid #f24f17;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #f24f17;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.kycForm-container {
+    display: flex;
+    justify-content: space-between;
+    height: 728px;
+    overflow-y: scroll;
+
+}
+.upload-file {
+    margin-top: 20px;
+    width: 190px;
+    height: 50px;
+    background: #F24F17;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 34px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.KycInput-div {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+  
+.kyc-input {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    height: 20px;
+    line-height: 24px;
+    color: #1f1f1f;
+}
+   
+.kycinput-field {
+    width: 820px;
+    height: 50px;
+    background: #ffffff;
+    border: 1px solid rgba(31, 31, 31, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+  
+.selectKycInput-name {
+    width: 820px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 31, 31, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.upload-success {
+    width: 700px;
+    height: 50px;
+    border: 1px solid rgba(31, 31, 31, 0.5);
+    border-radius: 5px;
+}
+.upload-success p {
+    margin: 15px 0;
+}
+
+.kyc-gst {
+    display: flex;
+    align-items: center;
+}
+    
+@media only screen and (max-width: 1024px) {
+    .Kyc-details {
+        font-size: 12px;
+    }
+    .sub-kyc {
+        font-size: 12px;
+    }
+    .KycSubmit-button {
+        width: 100px;
+        height: 35px;
+    }
+    .kyc-input {
+        font-size: 14px;
+    }
+    .kycinput-field {
+        width: 60%;
+    }
+}

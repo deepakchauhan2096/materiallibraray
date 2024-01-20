@@ -1,0 +1,122 @@
+.column-post {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  justify-content: center;
+ 
+  padding: 0 10px;
+  padding-bottom: 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row-post {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row-post:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card-post {
+  width:410px !important;
+  height: 220px !important;
+  border: 1px solid #1f1f1f;
+  border-radius: 10px;
+  height: auto;
+  margin-left: 20px;
+}
+/* Style the counter cards */
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px 0px 20px;
+}
+
+.small-image {
+  border-radius: 50%;
+}
+
+.job-title-conatiner {
+  display: flex;
+  justify-content: space-between;
+  
+  
+
+  padding: 0px 31px 0px 10px;
+}
+
+.job-card-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+  color: #1f1f1f;
+}
+
+
+
+.jobcard-com-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  
+  /* identical to box height */
+
+  color: #696969;
+  margin: 0px !important;
+}
+
+.more-icon {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.application-status {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+.application-post {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #1f1f1f;
+  margin-top: 5px;
+}
+
+.color-red{
+  color: red;
+}
+.color-green{
+  color: green;
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 1200px) {
+  .column-post {
+    width: 50%;
+
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+
+  .column-post {
+    width: 100%;
+  
+    margin-bottom: 20px;
+  }
+}
